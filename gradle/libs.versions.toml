@@ -1,0 +1,44 @@
+[versions]
+java = "25"
+minecraft = "26.3"
+tomlparser = "3.9.0"
+
+# :common / Mixins
+vanillagradle = "0.3.2"
+mixin = "0.8.7"
+mixinextras  = "0.5.5"
+
+# :fabric
+fabricloom = "1.19-SNAPSHOT"
+fabricloader = "0.19.5"
+modmenu = "21.0.1"
+
+# :forge
+forgegradle = "7.0.40"
+jarjar = "0.2.3"
+forge = "66.0.0"
+
+# :neoforge
+moddevgradle = "2.0.148"
+neoforge = "26.3.0.76"
+
+[libraries]
+tomlparser = { module = "com.electronwill.night-config:toml", version.ref = "tomlparser" }
+
+# :common
+commonmixin = { module = "org.spongepowered:mixin", version.ref = "mixin" }
+commonmixinextras = { module = "io.github.llamalad7:mixinextras-common", version.ref = "mixinextras" }
+
+# :fabric
+fabricloader = { module = "net.fabricmc:fabric-loader", version.ref = "fabricloader" }
+modmenu = { module = "com.terraformersmc:modmenu", version.ref = "modmenu" }
+
+# :forge
+forgemixinextras = { module = "io.github.llamalad7:mixinextras-forge", version.ref = "mixinextras" }
+
+[plugins]
+vanillagradle = { id = "org.spongepowered.gradle.vanilla", version.ref = "vanillagradle" }
+fabricloom = { id = "net.fabricmc.fabric-loom", version.ref = "fabricloom" }
+forgegradle = { id = "net.minecraftforge.gradle", version.ref = "forgegradle" }
+jarjar = { id = "net.minecraftforge.jarjar", version.ref = "jarjar" }
+moddevgradle = { id = "net.neoforged.moddev", version.ref = "moddevgradle" }

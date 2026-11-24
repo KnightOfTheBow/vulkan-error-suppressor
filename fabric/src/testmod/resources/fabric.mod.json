@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "${testmod_id}",
+  "version": "${version}",
+  "license": "${license}",
+  "environment": "client",
+  "mixins": ["${testmod_id}.mixins.json"],
+  "depends": { "${mod_id}": ">=${version}" }
+}

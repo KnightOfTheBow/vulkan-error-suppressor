@@ -1,0 +1,27 @@
+*                                        text=auto          eol=lf
+*.bat                                    text               eol=crlf
+*.cmd                                    text               eol=crlf
+*.png                                    binary
+*.gif                                    binary
+*.webp                                   binary
+*.jpg                                    binary
+*.jpeg                                   binary
+*.ico                                    binary
+*.icns                                   binary
+*.ogg                                    binary
+*.nbt                                    binary
+*.exe                                    binary
+*.dll                                    binary
+*.so                                     binary
+*.dylib                                  binary
+*.pyd                                    binary
+*.jar                                    binary
+*.zip                                    binary
+*.gz                                     binary
+*.tar                                    binary
+*.lzma                                   binary
+*.jks                                    binary
+gradlew                                  linguist-generated
+gradlew.bat                              linguist-generated
+gradle/wrapper/gradle-wrapper.jar        linguist-generated
+gradle/wrapper/gradle-wrapper.properties linguist-generated
